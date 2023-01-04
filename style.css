@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;800&display=swap');
+
+body {
+    background-color: whitesmoke;
+    font-family: 'Raleway', sans-serif;
+}
+
+.header {
+    background-image: url("images/coffee-bgnd.jpeg");
+    background-position: center;
+}
+
+/*Только для h1, который является наследником header*/
+.header > h1 {
+    font-size: 80px;
+    font-family: 'Covered By Your Grace', cursive;
+    color: rgb(203, 16, 16);
+}
+
+.border {
+    border: 1px solid black !important;
+}
+
+h2 {
+    font-weight: 800;
+    font-size: 28px;
+    background-color: #aa8eb5;
+}
+
+p {
+    color: #454;
+    font-weight: 500;
+}
+
+/*Links style*/
+a:link {
+    color: #0339ff;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+div > a:visited {
+    color: #aa8eb5;
+}
+
+div > a:active {
+    color: #00ffa0;
+}
+div > a:hover {
+    color: red;
+}
